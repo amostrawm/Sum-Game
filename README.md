@@ -1,4 +1,4 @@
-# Sum-Game
+# Jogo-da-Soma
 
 Jogo da Soma feito com Python
 

@@ -23,9 +23,11 @@ if confirmInput == 'y':
             randomValue1 = randint(1, 5)
             randomValue2 = randint(6, 10)
             randomValue3 = randint(11, 15)
+
             print("Valores disponíveis: ")
             print("[" + str(randomValue1) + "]" + "[" + str(randomValue2) + "]" + "[" + str(randomValue3) + "]")
             inputValue = int(input())
+
             if inputValue in [randomValue1, randomValue2, randomValue3]:
                 sumValue += inputValue
             else:
